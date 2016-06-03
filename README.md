@@ -13,5 +13,5 @@ To get started, use the `toolbox` script to initiate your project:
 ```bash
 ~ $ mkdir new-project
 ~ $ cd new-project
-~/new-project $ [$XP_INSTALL]/toolbox/toolbox.sh init-project -n com.example.name -r starter-vanilla
+~/new-project $ [$XP_INSTALL]/toolbox/toolbox.sh init-project -n com.example.name -r starter-vanilla
 ```
