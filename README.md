@@ -22,3 +22,18 @@ For best results, edit the gradle.properties file and check that the
 xpVersion matches your XP version. 
 
 Build your project with ``./gradlew build``
+
+## Compatibility
+
+| Version       | XP version |
+| ------------- | ---------- |
+| 1.1.0         | 6.4.0      |
+| 1.0.0         | 6.4.0      |
+
+## Changelog
+
+### 1.1.0
+
+* Added a default app icon and app description file. (These will only work for version 6.7.0 or newer)
+* Updated this readme file.
+* Updated the gradle wrapper.
