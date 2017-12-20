@@ -1,24 +1,13 @@
-buildscript {
-    repositories {
-        mavenLocal()
-        jcenter()
-        maven {
-            url 'http://repo.enonic.com/public'
-        }
-    }
-
-    dependencies {
-        classpath "com.enonic.xp:gradle-plugin:${xpVersion}"
-    }
+plugins {
+    id 'com.enonic.xp.app' version '1.0.15'
 }
-
-apply plugin: 'com.enonic.xp.app'
 
 app {
     name = project.appName
-    displayName = project.displayName
+    displayName = 'Vanilla Starter Kit'
     vendorName = 'Enonic AS'
     vendorUrl = 'http://enonic.com'
+    systemVersion = "${xpVersion}"
 }
 
 dependencies {
@@ -43,7 +32,5 @@ dependencies {
 repositories {
     mavenLocal()
     jcenter()
-    maven {
-        url 'http://repo.enonic.com/public'
-    }
+    xp.enonicRepo()
 }
