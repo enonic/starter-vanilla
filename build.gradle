@@ -1,12 +1,23 @@
-plugins {
-    id 'com.enonic.xp.app' version '1.1.0'
+buildscript {
+    repositories {
+        mavenLocal()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+        jcenter()
+    }
+    dependencies {
+        classpath "com.enonic.gradle:xp-gradle-plugin:2.0.0"
+    }
 }
 
+apply plugin: "com.enonic.xp.app"
+
 app {
-    name = project.appName
-    displayName = 'Vanilla Starter Kit'
-    vendorName = 'Enonic AS'
-    vendorUrl = 'http://enonic.com'
+    name = "${appName}"
+    displayName = "${appDisplayName}"
+    vendorName = "${vendorName}"
+    vendorUrl = "${vendorUrl}"
     systemVersion = "${xpVersion}"
 }
 
@@ -15,7 +26,7 @@ dependencies {
     compile "com.enonic.xp:portal-api:${xpVersion}"
     include "com.enonic.xp:lib-content:${xpVersion}"
     include "com.enonic.xp:lib-portal:${xpVersion}"
-    include "com.enonic.xp:lib-thymeleaf:${xpVersion}"
+    include "com.enonic.lib:lib-thymeleaf:2.0.0-A1"
     //include "com.enonic.xp:lib-mustache:${xpVersion}"
     //include "com.enonic.xp:lib-i18n:${xpVersion}"
     //include "com.enonic.xp:lib-auth:${xpVersion}"
