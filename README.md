@@ -55,10 +55,11 @@ Build your project with ``./gradlew build``
 
 ## Changelog
 
-### 1.4.0
+### 1.5.0
 
 Upgraded to Enonic XP7.
 
+### 1.4.0
 ### 1.3.0
 
 Upgraded to the new version of Gradle plugin.
