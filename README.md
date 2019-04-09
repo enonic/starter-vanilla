@@ -8,13 +8,8 @@ straight to creating what you're creating.
 
 ## Usage
 
-To get started, use the `toolbox` script to initiate your project:
+To get started, use the [Enonic CLI](https://developer.enonic.com/docs/enonic-cli) and select "Vanilla Starter" from the list of starters.
 
-```bash
-~ $ mkdir new-project
-~ $ cd new-project
-~/new-project $ [$XP_INSTALL]/toolbox/toolbox.sh init-project -n com.example.name -r starter-vanilla
-```
 
 ## Building your project
 
@@ -25,19 +20,19 @@ Build your project with ``./gradlew build``
 
 ## Compatibility
 
-| Version       | XP version |
+| Version       | Min XP version |
 | ------------- | ---------- |
-| 1.4.0	        | 6.12.0 - |
-| 1.3.0	        | 6.12.0 - |
-| 1.2.0	        | 6.7.0 - 6.11.x |
-| 1.1.0         | 6.7.0 - 6.11.x |
-| 1.0.0         | 6.4.0 - 6.11.x |
+| 2.0.0	        | 7.0.0 |
+| 1.3.0	        | 6.12.0 |
+| 1.2.0	        | 6.7.0 |
+| 1.1.0         | 6.7.0 |
+| 1.0.0         | 6.4.0 |
 
 ## Changelog
 
-### 1.4.0
+### 2.0.0
 
-Upgraded to the new version of Gradle plugin.
+Upgraded to Enonic XP7.
 
 ### 1.3.0
 
