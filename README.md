@@ -22,7 +22,7 @@ Build your project with ``./gradlew build``
 
 | Version       | Min XP version |
 | ------------- | ---------- |
-| 2.0.0	        | 7.0.0 |
+| 1.4.0	        | 7.0.0 |
 | 1.3.0	        | 6.12.0 |
 | 1.2.0	        | 6.7.0 |
 | 1.1.0         | 6.7.0 |
@@ -30,7 +30,7 @@ Build your project with ``./gradlew build``
 
 ## Changelog
 
-### 2.0.0
+### 1.4.0
 
 Upgraded to Enonic XP7.
 
