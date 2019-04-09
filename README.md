@@ -45,20 +45,19 @@ Build your project with ``./gradlew build``
 
 ## Compatibility
 
-| Version       | XP version |
+| Version       | Min XP version |
 | ------------- | ---------- |
-| 2.0.0	        | 7.0.0 - |
-| 1.4.0	        | 6.12.0 - |
-| 1.3.0	        | 6.12.0 - |
-| 1.2.0	        | 6.7.0 - 6.11.x |
-| 1.1.0         | 6.7.0 - 6.11.x |
-| 1.0.0         | 6.4.0 - 6.11.x |
+| 1.4.0	        | 7.0.0 |
+| 1.3.0	        | 6.12.0 |
+| 1.2.0	        | 6.7.0 |
+| 1.1.0         | 6.7.0 |
+| 1.0.0         | 6.4.0 |
 
 ## Changelog
 
-### 2.0.0
+### 1.4.0
 
-Upgrade to support XP 7
+Upgraded to Enonic XP7.
 
 ### 1.3.0
 
