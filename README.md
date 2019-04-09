@@ -1,22 +1,47 @@
 # Vanilla Starter for Enonic XP
 
-This starter kit will set up the basics for your new Enonic project.
+This starter kit will set up an empty shell for your new Enonic app.
 
 Once initiated, you'll have the bare minimum needed to create a new Enonic
-application or library. You'll have all the folders set up, and can get
+application. You'll have all the folders set up, and can get
 straight to creating what you're creating.
 
-## Usage
 
-To get started, use the [Enonic CLI](https://developer.enonic.com/docs/enonic-cli) and select "Vanilla Starter" from the list of starters.
+## Usage XP 7
+
+You first need to install Enonic CLI. Then run the following commands to build and depoy it:
+
+```bash
+~ $ enonic project create
+... Answer wizard question
+
+~ $ cd <project-folder>
+~/new-project $ enonic project deploy
+```
+
+Your brand new app should now be up and running on http://localhost:8080
 
 
-## Building your project
+## For XP 6.x users
+
+
+### Initialize project
+
+To get started, use the `toolbox` script to initiate your project:
+
+```bash
+~ $ mkdir new-project
+~ $ cd new-project
+~/new-project $ [$XP_INSTALL]/toolbox/toolbox.sh init-project -n com.example.name -r starter-vanilla
+```
+
+### Building your project
 
 For best results, edit the gradle.properties file and check that the 
 xpVersion matches your XP version. 
 
 Build your project with ``./gradlew build``
+
 
 ## Compatibility
 
