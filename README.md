@@ -9,7 +9,7 @@ straight to creating what you're creating.
 
 ## Usage XP 7
 
-You first need to install Enonic CLI. Then run the following commands to build and depoy it:
+You first need to install Enonic CLI. Then run the following commands to build and deploy it:
 
 ```bash
 ~ $ enonic project create
@@ -47,6 +47,7 @@ Build your project with ``./gradlew build``
 
 | Version       | Min XP version |
 | ------------- | ---------- |
+| 1.6.0	        | 7.3.1 |
 | 1.5.0-2	        | 7.0.0 |
 | 1.4.0	        | 6.12.0 |
 | 1.3.0	        | 6.12.0 |
@@ -55,6 +56,10 @@ Build your project with ``./gradlew build``
 | 1.0.0         | 6.4.0 |
 
 ## Changelog
+
+### 1.6.0
+
+Upgraded to XP 7.3.1
 
 ### 1.5.2
 
