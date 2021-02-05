@@ -15,7 +15,7 @@ dependencies {
     compile "com.enonic.xp:portal-api:${xpVersion}"
     include "com.enonic.xp:lib-content:${xpVersion}"
     include "com.enonic.xp:lib-portal:${xpVersion}"
-    include "com.enonic.lib:lib-thymeleaf:2.0.0"
+    include "com.enonic.lib:lib-thymeleaf:2.0.1"
     //include "com.enonic.xp:lib-auth:${xpVersion}"
     //include "com.enonic.xp:lib-context:${xpVersion}"
     //include "com.enonic.xp:lib-i18n:${xpVersion}"
@@ -24,7 +24,7 @@ dependencies {
     //include "com.enonic.xp:lib-repo:${xpVersion}"
     //include "com.enonic.xp:lib-websocket:${xpVersion}"
     //include "com.enonic.lib:lib-mustache:2.0.0"
-    //include "com.enonic.lib:lib-util:2.0.0"
+    //include "com.enonic.lib:lib-util:3.0.0"
 }
 
 repositories {
