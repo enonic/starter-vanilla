@@ -15,7 +15,7 @@ dependencies {
     implementation "com.enonic.xp:portal-api:${xpVersion}"
     include "com.enonic.xp:lib-content:${xpVersion}"
     include "com.enonic.xp:lib-portal:${xpVersion}"
-    include "com.enonic.lib:lib-thymeleaf:2.0.1"
+    include "com.enonic.lib:lib-thymeleaf:2.0.2"
     //include "com.enonic.xp:lib-auth:${xpVersion}"
     //include "com.enonic.xp:lib-context:${xpVersion}"
     //include "com.enonic.xp:lib-i18n:${xpVersion}"
