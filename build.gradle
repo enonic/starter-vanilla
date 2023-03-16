@@ -18,7 +18,7 @@ dependencies {
     include "com.enonic.lib:lib-thymeleaf:2.0.2"
     //include "com.enonic.xp:lib-auth:${xpVersion}"
     //include "com.enonic.xp:lib-context:${xpVersion}"
-    //inlcude "com.enonic.xp:lib-project:${xpVersion}"
+    //include "com.enonic.xp:lib-project:${xpVersion}"
     //include "com.enonic.xp:lib-i18n:${xpVersion}"
     //include "com.enonic.xp:lib-io:${xpVersion}"
     //include "com.enonic.xp:lib-mail:${xpVersion}"
