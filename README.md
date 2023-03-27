@@ -37,8 +37,8 @@ To get started, use the `toolbox` script to initiate your project:
 
 ### Building your project
 
-For best results, edit the gradle.properties file and check that the 
-xpVersion matches your XP version. 
+For best results, edit the gradle.properties file and check that the
+xpVersion matches your XP version.
 
 Build your project with ``./gradlew build``
 
@@ -47,15 +47,7 @@ Build your project with ``./gradlew build``
 
 | Version | Min XP version |
 |---------|----------------|
-| 1.8.0	  | 7.8.0          |
-| 1.7.0	  | 7.6.0          |
-| 1.6.0	  | 7.3.1          |
-| 1.5.*	  | 7.0.0          |
-| 1.4.0	  | 6.12.0         |
-| 1.3.0	  | 6.12.0         |
-| 1.2.0	  | 6.7.0          |
-| 1.1.0   | 6.7.0          |
-| 1.0.0   | 6.4.0          |
+| Latest  | 7.12.1         |
 
 ## Changelog
 
