@@ -47,7 +47,7 @@ Build your project with ``./gradlew build``
 
 | Version | Min XP version |
 |---------|----------------|
-| Latest  | 7.12.0         |
+| Latest  | 7.12.1         |
 
 ## Changelog
 
