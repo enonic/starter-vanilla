@@ -26,6 +26,10 @@ dependencies {
     //include "com.enonic.xp:lib-websocket:${xpVersion}"
 }
 
+tasks.register('dev', Exec) {
+    commandLine './gradlew', 'deploy', '-t'
+}
+
 repositories {
     mavenLocal()
     mavenCentral()
