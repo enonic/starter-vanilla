@@ -27,8 +27,8 @@ dependencies {
 }
 
 tasks.register('dev', Exec) {
-    if (System.getProperty('os.name').toLowerCase().contains('windows')) {
-        commandLine 'gradlew.bat', 'deploy', '-t'
+    if (org.gradle.internal.os.OperatingSystem.current().isWindows()) {
+        commandLine 'cmd', '/c', 'gradlew.bat', 'deploy', '-t'
     } else {
         commandLine './gradlew', 'deploy', '-t'
     }
