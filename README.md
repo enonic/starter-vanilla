@@ -6,8 +6,7 @@ Once initiated, you'll have the bare minimum needed to create a new Enonic
 application. You'll have all the folders set up, and can get
 straight to creating what you're creating.
 
-
-## Usage XP 7
+## Usage XP 8
 
 You first need to install Enonic CLI. Then run the following commands to build and deploy it:
 
@@ -47,9 +46,13 @@ Build your project with ``./gradlew build``
 
 | Version | Min XP version |
 |---------|----------------|
-| Latest  | 7.12.1         |
+| Latest  | 8.0.1          |
 
 ## Changelog
+
+### 2.0.0
+
+Upgraded to XP 8.0.1.
 
 ### 1.8.0
 

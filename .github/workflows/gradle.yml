@@ -1,6 +1,6 @@
 name: Build
 
-on: [push]
+on: [ push, workflow_dispatch ]
 
 jobs:
   build:
@@ -10,6 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: enonic/action-app-build@v1
+      - uses: enonic/action-app-build@v2
       
       - uses: codecov/codecov-action@v5
