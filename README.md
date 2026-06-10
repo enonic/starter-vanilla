@@ -6,89 +6,52 @@ Once initiated, you'll have the bare minimum needed to create a new Enonic
 application. You'll have all the folders set up, and can get
 straight to creating what you're creating.
 
-## Usage XP 8
+## Enonic CLI
 
-You first need to install Enonic CLI. Then run the following commands to build and deploy it:
+You first need to install Enonic CLI:
 
 ```bash
-~ $ enonic project create
-... Answer wizard question
+npm install -g enonic-cli
+```
 
-~ $ cd <project-folder>
-~/new-project $ enonic project deploy
+## Building
+
+### XP 8
+
+Run the following commands to create and deploy it:
+
+```bash
+~ $ enonic project create -r starter-vanilla myapp
+
+~ $ cd myapp
+
+~/myapp $ enonic project deploy
 ```
 
 Your brand new app should now be up and running on http://localhost:8080
 
+### XP 7
 
-## For XP 6.x users
-
-
-### Initialize project
-
-To get started, use the `toolbox` script to initiate your project:
+Run the following commands to create and deploy it:
 
 ```bash
-~ $ mkdir new-project
-~ $ cd new-project
-~/new-project $ [$XP_INSTALL]/toolbox/toolbox.sh init-project -n com.example.name -r starter-vanilla
+~ $ enonic project create -r starter-vanilla -b xp7 myapp
+
+~ $ cd myapp
+
+~/myapp $ enonic project deploy
 ```
 
-### Building your project
+Your brand new app should now be up and running on http://localhost:8080
 
-For best results, edit the gradle.properties file and check that the
-xpVersion matches your XP version.
+## Development
 
-Build your project with ``./gradlew build``
+After you have created the project, you can also run it in development mode.
 
+In this mode all changes to project files will be automatically compiled and deployed to XP:
 
-## Compatibility
+```bash
+~/myapp $ enonic dev
+```
 
-| Version | Min XP version |
-|---------|----------------|
-| Latest  | 8.0.1          |
-
-## Changelog
-
-### 2.0.0
-
-Upgraded to XP 8.0.1.
-
-### 1.8.0
-
-Upgraded to XP 7.8.0
-
-### 1.7.0
-
-Upgraded to XP 7.6.0
-
-### 1.6.0
-
-Upgraded to XP 7.3.1
-
-### 1.5.2
-
-Proper commit and release for the 1.5.1 fix
-
-### 1.5.1
-
-Removed site.xml to avoid all apps to be treated as sites
-
-### 1.5.0
-
-Upgraded to Enonic XP7.
-
-### 1.4.0
-### 1.3.0
-
-Upgraded to the new version of Gradle plugin.
-
-### 1.2.0
-
-Updated to work for Enonic XP 6.12.0.  Previous versions will not work after 6.11.x
-
-### 1.1.0
-
-* Added a default app icon and app description file. (These will only work for version 6.7.0 or newer)
-* Updated this readme file.
-* Updated the gradle wrapper.
+Your brand new app should now be up and running on http://localhost:8080.

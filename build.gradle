@@ -7,7 +7,6 @@ dependencies {
     implementation xplibs.api.portal
     include xplibs.content
     include xplibs.portal
-    include "com.enonic.lib:lib-thymeleaf:3.0.0"
     //include xplibs.auth
     //include xplibs.context
     //include xplibs.project
