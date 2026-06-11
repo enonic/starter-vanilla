@@ -1,0 +1,5 @@
+kind: "Application"
+title: "Vanilla Example"
+description: "Edit app description at src/main/resources/enonic.yaml"
+vendorName: "Acme Inc"
+vendorUrl: "https://example.com"
